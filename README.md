@@ -7,6 +7,8 @@ The API adheres to the principles of REST, utilizing standard HTTP methods such 
 
 The interaction flow is as follows: when a user submits a query, the JavaScript code captures this input and constructs an HTTP request to the designated API endpoint for country queries. Subsequently, the API processes the request and responds with relevant data. The JavaScript code then processes this data and updates the DOM to display the information about the queried country.
 
+![Screenshot 2023-09-30 002423](https://github.com/SaumyaTiwari1008/CountryGuide/assets/131397199/5a5d82b5-20aa-4801-9d74-043d279ec930)
+
 The project also incorporates error handling to account for scenarios where the API request may fail or the user enters an invalid query. Additionally, once the API responds with data, the JavaScript code formats it and updates the HTML elements to present the information in a user-friendly manner.
 
 Overall, this project showcases a seamless integration of frontend technologies and a RESTful API, resulting in an application that empowers users to effortlessly search for and retrieve basic information about various countries through a user-friendly web interface.
